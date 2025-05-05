@@ -18,4 +18,4 @@ if you are in the main project folder:
 
 `cd ./Backend && ./run.sh`
 
-### <small style="font-size: 0.7em;">more details coming soon items</small>
+### <small style="font-size: 0.7em;">more details coming soon </small>
