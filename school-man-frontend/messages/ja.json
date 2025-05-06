@@ -1,4 +1,8 @@
 {
+  "LocaleSwitcher": {
+    "label": "日本語",
+    "locale": "{locale, select, ja {🇯🇵 日本語} en {🇺🇸 English} other {Unknown}}"
+  },
   "HomePage": {
     "title": "ハロー世界",
     "about": "私達へ"
