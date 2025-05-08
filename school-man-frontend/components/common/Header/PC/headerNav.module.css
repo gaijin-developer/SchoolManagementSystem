@@ -1,0 +1,9 @@
+@reference "../../../../app/globals.css";
+
+.name {
+  @apply flex gap-4;
+}
+
+.name a {
+  @apply hover:text-blue-400 transition;
+}

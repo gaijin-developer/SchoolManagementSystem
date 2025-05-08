@@ -27,13 +27,13 @@ function SelectLanguage({ children, label, defaultValue }: Props) {
   return (
     <label
       className={clsx(
-        "relative  mt-2 ",
+        "relative  mt-2",
         isPending && " transition-opacity [&:disabled]:opacity-80"
       )}
     >
       <p className="sr-only ">{label}</p>
       <select
-        className="inline-flex appearance-none bg-transparent py-2 pl-2 pr-6 focus:outline-none rounded border-2 border-black"
+        className="inline-flex appearance-none bg-transparent py-2 pl-2 pr-6 focus:outline-none rounded border-b-2"
         defaultValue={defaultValue}
         disabled={isPending}
         onChange={handleLanguageChange}

@@ -1,0 +1,8 @@
+@reference "../../../../app/globals.css";
+
+.authButtonsContainer {
+  @apply flex gap-2;
+}
+.authButtonsContainer button {
+  @apply border-2 p-2 rounded-md;
+}

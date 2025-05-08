@@ -5,6 +5,12 @@
   },
   "HomePage": {
     "title": "Hello world!",
-    "about": "Go to the about page"
+    "about": "Go to the about page",
+    "header": {
+      "signin": "Sign In",
+      "signout": "Sign Out",
+      "pricing": "Pricing",
+      "features": "Features"
+    }
   }
 }

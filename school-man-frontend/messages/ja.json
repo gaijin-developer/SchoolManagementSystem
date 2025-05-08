@@ -5,6 +5,12 @@
   },
   "HomePage": {
     "title": "ハロー世界",
-    "about": "私達へ"
+    "about": "私達へ",
+    "header": {
+      "signin": "サインイン",
+      "signout": "サインアウト",
+      "pricing": "料金",
+      "features": "特徴"
+    }
   }
 }
