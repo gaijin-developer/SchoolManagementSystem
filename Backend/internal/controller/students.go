@@ -1,6 +1,7 @@
 package controller
 
 import (
+	"net/http"
 	"time"
 
 	"github.com/gaijin-developer/SchoolManagementSystem/Backend/internal/model"
@@ -13,7 +14,7 @@ type StudentsController struct {
 func (s *StudentsController) GetAllStudents(ctx *gin.Context){
 
 	newStudent := model.Student{
-			FirstName:      "Frank",
+		FirstName:      "Frank",
 		LastName:       "Entsie",
 		DateOfBirth:    time.Date(2009, time.March, 12, 0, 0, 0, 0, time.UTC),
 		Gender:         "Male",
@@ -28,8 +29,18 @@ func (s *StudentsController) GetAllStudents(ctx *gin.Context){
 		ClassLevel:     9,
 }
 
-	students := []model.Student{newStudent}
+	students := []model.Student{newStudent,newStudent}
 
 	ctx.JSON(200,students);
 
+}
+
+func (s *StudentsController) CreateNewStudent(ctx *gin.Context){
+	var student model.Student;
+	if err:= ctx.ShouldBindJSON(&student);err!=nil{
+		ctx.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+      return
+	}
+  
+	  ctx.JSON(http.StatusOK, student)
 }

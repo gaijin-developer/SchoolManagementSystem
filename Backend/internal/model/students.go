@@ -1,19 +1,24 @@
 package model
 
-import "time"
+import (
+	"time"
+
+	"gorm.io/gorm"
+)
 
 type Student struct {
-	FirstName       string
-	LastName   string
-	DateOfBirth time.Time
-	Gender string
-	ContactNumber string
-	EnrollmentDate time.Time
-	Address string
-	Section string
-	GuardianName string
-	IsActive bool
-	Age        int64
-	Email      string
-	ClassLevel int
+	gorm.Model
+	FirstName       string 	`json:"firstName"`
+	LastName   string `json:"lastName"`
+	DateOfBirth time.Time `json:"dateOfBirth"`
+	Gender string `json:"gender"`
+	ContactNumber string `json:"contactNumber"`
+	EnrollmentDate time.Time `json:"enrollmentDate"`
+	Address string `json:"address"`
+	Section string `json:"section"`
+	GuardianName string `json:"guardianName"`
+	IsActive bool `json:"isActive"`
+	Age        int64 `json:"age"`
+	Email      string `json:"email"`
+	ClassLevel int `json:"classLevel"`
 }

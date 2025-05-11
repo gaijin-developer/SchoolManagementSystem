@@ -8,6 +8,7 @@ import (
 var studentController = controller.StudentsController{};
 
 func RouteDefinitions(routerEngine *gin.Engine){
-	routerEngine.GET("/ping",studentController.GetAllStudents)
+	routerEngine.GET("/",studentController.GetAllStudents)
+	routerEngine.POST("/students",studentController.CreateNewStudent)
 }
 
