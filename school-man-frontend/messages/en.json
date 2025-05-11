@@ -3,6 +3,7 @@
     "label": "English",
     "locale": "{locale, select, ja {🇯🇵 日本語} en {🇺🇸 English} other {Unknown}}"
   },
+
   "HomePage": {
     "title": "Hello world!",
     "about": "Go to the about page",
@@ -11,6 +12,13 @@
       "signout": "Sign Out",
       "pricing": "Pricing",
       "features": "Features"
+    },
+    "footer": {
+      "footer-nav": [
+        { "label": "Home", "url": "/" },
+        { "label": "Contact Us", "url": "/contact-us" },
+        { "label": "Privacy Policy", "url": "/privacy" }
+      ]
     }
   }
 }

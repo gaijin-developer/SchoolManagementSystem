@@ -11,6 +11,13 @@
       "signout": "サインアウト",
       "pricing": "料金",
       "features": "特徴"
+    },
+    "footer": {
+      "footer-nav": [
+        { "label": "ホーム", "url": "/" },
+        { "label": "連絡", "url": "/contact-us" },
+        { "label": "ポリシー", "url": "/privacy" }
+      ]
     }
   }
 }
