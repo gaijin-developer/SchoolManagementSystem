@@ -19,5 +19,16 @@
         { "label": "ポリシー", "url": "/privacy" }
       ]
     }
+  },
+  "School": {
+    "sidebar": {
+      "dashboard": "ダッシュボード",
+      "students": "生徒",
+      "teachers": "教師",
+      "records": "記録",
+      "staff": "職員",
+      "programs": "プログラム",
+      "announcements": "お知らせ"
+    }
   }
 }

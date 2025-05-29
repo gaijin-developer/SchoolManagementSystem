@@ -20,5 +20,16 @@
         { "label": "Privacy Policy", "url": "/privacy" }
       ]
     }
+  },
+  "School": {
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "students": "Students",
+      "teachers": "Teachers",
+      "records": "Records",
+      "staff": "Staff",
+      "programs": "Programs",
+      "announcements": "Announcements"
+    }
   }
 }
