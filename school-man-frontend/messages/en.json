@@ -3,7 +3,6 @@
     "label": "English",
     "locale": "{locale, select, ja {🇯🇵 日本語} en {🇺🇸 English} other {Unknown}}"
   },
-
   "HomePage": {
     "title": "Hello world!",
     "about": "Go to the about page",
@@ -31,5 +30,9 @@
       "programs": "Programs",
       "announcements": "Announcements"
     }
+  },
+  "Errors": {
+    "notfound": "Page Not found",
+    "gohome": "Go Home"
   }
 }

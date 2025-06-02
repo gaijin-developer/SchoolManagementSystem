@@ -1,7 +1,10 @@
 import { Link } from "@/i18n/navigation";
 import React from "react";
 
-type Props = { routeDestination: string; label: string };
+type Props = {
+  routeDestination: string;
+  label: string;
+};
 
 const SidebarItem = ({ routeDestination, label }: Props) => {
   return (

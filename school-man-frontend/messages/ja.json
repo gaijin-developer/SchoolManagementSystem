@@ -30,5 +30,9 @@
       "programs": "プログラム",
       "announcements": "お知らせ"
     }
+  },
+  "Errors": {
+    "notfound": "迷ったかもしれません",
+    "gohome": "ホーム"
   }
 }
