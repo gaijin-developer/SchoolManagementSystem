@@ -15,7 +15,7 @@ func RouteDefinitions(routerEngine *gin.Engine,db *gorm.DB){
 	v1Api := routerEngine.Group("/api/v1")
 	{
 		v1Api.GET("/students",studentHandlers.GetAllStudents)
-		// v1Api.POST("/students",studentController.CreateNewStudent)
+		v1Api.POST("/students",studentHandlers.CreateNewStudent)
 
 	}
 	
